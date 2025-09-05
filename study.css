@@ -1,0 +1,227 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightgoldenrodyellow;
+        }
+       
+header{
+       position: sticky;
+       margin-right: 1000px;
+       background-color: whitesmoke;}
+
+ ul{
+    display: flex;
+    list-style: none;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.head{
+    position: sticky;
+    top: o;
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    column-gap: 0;
+    row-gap: 130px;
+    list-style-type: none;
+    width: 100%;
+}
+
+.projects img {
+    width: 1300px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+.project h1 {
+    padding: 20px;
+}
+
+.firstchild {
+    font-size: 17px;
+    padding-right: 130px;
+    padding-left: 0;
+    font-weight: bold;
+    margin-right: 1000px;
+}
+            
+
+.secondchild {
+    padding-right: 0px;
+    margin-right: 50px;
+}
+    
+
+
+
+.thirdchild {
+    background-color: BLACK;
+    padding: 2px;
+    border-radius: 4px;
+    color: white;
+    
+}
+
+
+
+.skills-list {
+    display: flex; 
+    gap: 1rem;
+    margin: 2rem;
+    padding: 24px 104px;
+}
+
+.skills-list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.skills-list img {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.fisrtproject {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pic {
+    display: flex;
+    flex-direction: row;
+
+}
+.pic img {
+     height: 20rem;
+    width: 20rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: black;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width:700px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        font-size: 12px;
+        padding: auto;
+        background-color: #ffffff;
+       margin: 2px;
+    }
+
+    .firstchild {
+        list-style-type: none;
+    }
+    .secondchild {
+        list-style-type: none;
+    }
+    .thirdchild {
+        list-style-type: none;
+    }
+
+    .thirdchild {
+        padding: 2px 3px;
+        font-size: 12px;
+    }
+
+    img {
+        width: 40%;
+        height: 20%;
+    }
+        
+        .skills-list {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 0;
+        padding: 1rem;
+        gap: 0;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .skills-list div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .skills-list div img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .skills-list div p {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .projects img {
+        width: 500px;
+        height: 500px;
+        
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 1rem;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer a {
+        font-size: 12px;
+        padding: 5px 5px;
+        margin-right: 3rem;
+    }
+
+    
+}
