@@ -11,6 +11,7 @@
 header{
        position: sticky;
        margin-right: 1000px;
+       padding: 1rem;
        background-color: whitesmoke;}
 
  ul{
@@ -66,10 +67,14 @@ header{
 
 .thirdchild {
     background-color: BLACK;
-    padding: 2px;
+    padding: 0.5rem;
     border-radius: 4px;
     color: white;
     
+}
+
+section h1,p{
+    margin-left: 2rem;
 }
 
 
@@ -162,7 +167,7 @@ button {
     }
 
     .thirdchild {
-        padding: 2px 3px;
+        padding: 0.3rem;
         font-size: 12px;
     }
 

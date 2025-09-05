@@ -12,6 +12,7 @@ body {
 header{
             position: sticky;
             top: 0;
+            padding: 1rem;
             background-color: whitesmoke;}
 
 .head{
@@ -46,8 +47,8 @@ header{
 
 .thirdchild {
     background-color: BLACK;
-    padding: 2px;
-    border-radius: 4px;
+    padding: 0.5rem;
+    border-radius: 8px;
     color: white;
     
 }
@@ -150,6 +151,10 @@ a {
         width: 100%;
     }
 
+    .thirdchild{
+        padding: 0.3rem;
+    }
+    
     .projects {
         margin: 0rem;
         padding: 1rem;
