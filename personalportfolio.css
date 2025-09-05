@@ -200,11 +200,60 @@ a {
         grid-template-columns: repeat(3,1fr);
         margin: 0;
         padding: 1rem;
+    }  
+
+}
+
+@media screen and (max-width:320px) {
+    footer{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    footer h3{
+        font-size: 10px;
     }
 
-    
-
-    
+    footer button{
+         background-color: black;
+         padding: 0;
+         margin: 0;
+         text-align: center;
+      /*    display: flex;
+         align-items: center;
+         justify-content: center; */
+    }
+ 
+footer a{
+   text-decoration: none;
+    color: white;
+   text-align: center;
+    border-radius: 0;
+    padding: 10px;
+    font-size: 10px;
     
 
 }
+
+   footer ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        list-style: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header ul{
+        font-size: 10px;
+    }
+
+
+
+  
+}
+    
